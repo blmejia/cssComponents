@@ -33,7 +33,7 @@ body {
 }
 
 .header .nav #logo img {
-  height: auto;
+  height: 100px;
   width: 150px;
 }
 
