@@ -11,7 +11,7 @@ body {
 
 .header .nav {
   width: 100vw;
-  height: 150px;
+  height: 50px;
   background-color: transparent;
   -webkit-transition: .2s ease-in-out;
   transition: .2s ease-in-out;
@@ -101,6 +101,8 @@ body {
     display: none;
     position: absolute;
     top: 100%;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
   }
   #mobile-menu ul {
     margin-left: 5%;

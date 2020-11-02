@@ -10,14 +10,19 @@ const burgerColor = document.querySelector(".burger");
 //mobile navigation
 const burger = document.querySelector(".burger").addEventListener("click", function(){
    // alert("working");
-    
+   
     if (mobileMenu.style.display === "block") {
+        //mobileMenu.classList.add("animate__fadeOutLeft", "animate__animated" )
         mobileMenu.style.display = "none";
+       
+       
+        
       } else {
         mobileMenu.style.display = "block";
+        //mobileMenu.classList.add("animate__fadeInLeft", "animate__animated" )
       }
 
-      mobileMenu.classList.add("animate__fadeInDown", "animate__animated");
+      
     
 })
 
