@@ -19,7 +19,7 @@ const burger = document.querySelector(".burger").addEventListener("click", funct
         
       } else {
         mobileMenu.style.display = "block";
-        //mobileMenu.classList.add("animate__fadeInLeft", "animate__animated" )
+      ////  //mobileMenu.classList.add("animate__fadeInLeft", "animate__animated" )
       }
 
       

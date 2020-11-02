@@ -22,11 +22,13 @@ body{
         justify-content: space-between;
         #logo{
             margin-left: 5%;
-            font-size: 24px;
-            color: white;
+           font-size: 24px;
+            //color: white;
+            //padding: 5px;
+            
             img{
-                height: 100px;
-                width: 275px;
+                height: auto;
+                width: 150px;
             }
         }
     }

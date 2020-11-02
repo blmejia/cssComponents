@@ -30,12 +30,11 @@ body {
 .header .nav #logo {
   margin-left: 5%;
   font-size: 24px;
-  color: white;
 }
 
 .header .nav #logo img {
-  height: 100px;
-  width: 275px;
+  height: auto;
+  width: 150px;
 }
 
 .header .nav-active {
