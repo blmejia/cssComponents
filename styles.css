@@ -11,7 +11,9 @@ body {
 
 .header .nav {
   width: 100vw;
-  height: 50px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   background-color: transparent;
   -webkit-transition: .2s ease-in-out;
   transition: .2s ease-in-out;
@@ -29,12 +31,11 @@ body {
 
 .header .nav #logo {
   margin-left: 5%;
-  font-size: 24px;
 }
 
 .header .nav #logo img {
-  height: 50px;
-  width: 150px;
+  height: auto;
+  width: 200px;
 }
 
 .header .nav-active {

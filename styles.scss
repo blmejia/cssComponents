@@ -13,7 +13,7 @@ body{
 .header{
     .nav{
         width: 100vw;
-        height: 50px;
+        height: fit-content;
         background-color: transparent;
         transition: .2s ease-in-out;
         position: fixed;
@@ -22,13 +22,13 @@ body{
         justify-content: space-between;
         #logo{
             margin-left: 5%;
-           font-size: 24px;
+         
             //color: white;
             //padding: 5px;
             
             img{
-                height: 50px;
-                width: 150px;
+                height: auto;
+                width: 200px;
             }
         }
     }
