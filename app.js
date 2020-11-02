@@ -24,7 +24,7 @@ const burger = document.querySelector(".burger").addEventListener("click", funct
 window.onscroll = function(){
     if(window.scrollY > 80){
         nav.classList.add("nav-active",
-        "animate__bounce", "animate__animated")
+        "animate__", "animate__animated")
        
         logo.style.color = "black"
         burgerColor.style.color = "black"
@@ -35,7 +35,7 @@ window.onscroll = function(){
     }
     else{
         nav.classList.remove("nav-active",
-        "animate__bounce", "animate__animated")
+        "animate__", "animate__animated")
             
        logo.style.color = "white"
        burgerColor.style.color = "white"
