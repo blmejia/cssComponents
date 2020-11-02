@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 200vh;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgb(173, 75, 100);
+}
+
+
+.header{
+    .nav{
+        width: 100vw;
+        height: 150px;
+        background-color: transparent;
+        transition: .2s ease-in-out;
+        position: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        #logo{
+            margin-left: 5%;
+            font-size: 24px;
+            color: white;
+            img{
+                height: 100px;
+                width: 275px;
+            }
+        }
+    }
+
+    .nav-active{
+
+        background-color: rgb(255, 255, 255);
+       
+        transition: .2s ease-in-out;
+    }
+    
+
+    .menu{
+        margin-right: 5%;
+        ul{
+            
+            list-style: none;
+
+
+            li{
+               
+                display: inline-block;
+                margin-left: 10px;
+           
+
+                a{
+                    text-decoration: none;
+                    color: white;
+                    font-size: 24px;
+                    
+                
+                    padding-bottom: 10px;
+                }
+                a:hover{
+                    
+                    border-bottom: 2px solid black;
+                }
+            
+
+                
+            }
+        }
+    }
+
+  
+}
+
+  //MOBILE QUERY
+
+  @media (min-width: 481px){
+    .burger{
+        display: none;
+    }
+    #mobile-menu{
+        display: none;
+    }
+  }
+
+  @media (min-width: 320px) and (max-width: 480px) {
+  
+        .menu{
+            display: none;
+        }
+        .burger{
+            margin-right: 5%;
+            color: white;
+            display: flex;
+            flex-wrap: wrap;
+            cursor: pointer;
+            
+           
+         i{
+             font-size: 24px;
+     
+         }
+
+     
+
+         }
+         #mobile-menu {
+            width: 100vw;
+            height: auto;
+            
+            background-color: teal;
+            display: none;
+            position: absolute;
+            top: 100%;
+
+            ul{
+                margin-left: 5%;
+                margin-top: 10%;
+                list-style: none;
+                li{
+                    padding-bottom: 10%;
+                    a{
+                        text-decoration: none;
+                        padding-bottom: 20px;
+                        font-size: 24px;
+                        color: white;
+                       
+                       
+                    }
+                }
+               
+            }
+        }
+  
+    }
+   
+     
+   

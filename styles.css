@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 200vh;
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #ad4b64;
+}
+
+.header .nav {
+  width: 100vw;
+  height: 150px;
+  background-color: transparent;
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header .nav #logo {
+  margin-left: 5%;
+  font-size: 24px;
+  color: white;
+}
+
+.header .nav #logo img {
+  height: 100px;
+  width: 275px;
+}
+
+.header .nav-active {
+  background-color: white;
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
+}
+
+.header .menu {
+  margin-right: 5%;
+}
+
+.header .menu ul {
+  list-style: none;
+}
+
+.header .menu ul li {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.header .menu ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  padding-bottom: 10px;
+}
+
+.header .menu ul li a:hover {
+  border-bottom: 2px solid black;
+}
+
+@media (min-width: 481px) {
+  .burger {
+    display: none;
+  }
+  #mobile-menu {
+    display: none;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .menu {
+    display: none;
+  }
+  .burger {
+    margin-right: 5%;
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    cursor: pointer;
+  }
+  .burger i {
+    font-size: 24px;
+  }
+  #mobile-menu {
+    width: 100vw;
+    height: auto;
+    background-color: teal;
+    display: none;
+    position: absolute;
+    top: 100%;
+  }
+  #mobile-menu ul {
+    margin-left: 5%;
+    margin-top: 10%;
+    list-style: none;
+  }
+  #mobile-menu ul li {
+    padding-bottom: 10%;
+  }
+  #mobile-menu ul li a {
+    text-decoration: none;
+    padding-bottom: 20px;
+    font-size: 24px;
+    color: white;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
